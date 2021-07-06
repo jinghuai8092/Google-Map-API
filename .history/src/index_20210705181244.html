@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+</head>
+<body>
+    <section class="searchGet">
+        <input type="text" placeholder="Enter a place" name="search" id="search" style="width: 600px;height: 30px;">
+
+        <button id="getLocation" style="height: 30px;>Get Your Location</button>
+<p></p>
+        <p id="details"></p>
+    </section>
+    <section>
+        <div id="mapShow"></div>
+    </section>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzMkacBwJGqDw0PKGwyLN5Z3kCYA9QG3Y&libraries=places&callback=initMap"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
